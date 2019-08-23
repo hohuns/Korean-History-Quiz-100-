@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch image" translatesAutoresizingMaskIntoConstraints="NO" id="NhI-BH-bQA">
+                                <rect key="frame" x="0.0" y="133" width="414" height="469"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="EfT-cb-mGv"/>
+                                    <constraint firstAttribute="height" constant="400" id="iX6-fx-Jbi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.42414827389999998" green="0.44242606950000002" blue="0.86792909100000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="NhI-BH-bQA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2GY-ZL-Pm1"/>
+                            <constraint firstItem="NhI-BH-bQA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WaD-Gc-lb7"/>
+                            <constraint firstItem="NhI-BH-bQA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="evh-NL-Jpd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NhI-BH-bQA" secondAttribute="bottom" constant="134" id="hfd-tn-Eva"/>
+                            <constraint firstItem="NhI-BH-bQA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="113" id="jRR-0c-YWc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch image" width="640" height="400"/>
+    </resources>
+</document>
