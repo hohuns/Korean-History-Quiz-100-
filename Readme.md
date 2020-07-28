@@ -6,8 +6,7 @@
 All code copyright reserved by JOO SUNG JAE
 
 ## Detailed Description
-If you want to see detailed description of this application, then please refer to this website. 
-https://www.notion.so/hohuns17/IOS-Korean-History-Quiz-100-100-c857f23069244c58827920b625c96978
+If you want to see detailed description of this application, then please refer to this [website](https://www.notion.so/hohuns17/IOS-Korean-History-Quiz-100-100-c857f23069244c58827920b625c96978).
 
 ## 어플 설명(Korean)
 “역사를 잊은 민족에게 미래는 없다”
